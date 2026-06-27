@@ -47,6 +47,10 @@ class _MyHomePageState extends State<MyHomePage> {
               )
             ],
 
+      ),
+            Row(
+
+
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
 
@@ -65,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
               FloatingActionButton(onPressed: (){
 
-              },child: Icon(Icons.add),)
+              },child: Icon(Icons.add),),
 
               InkWell(
                 child: Container(
