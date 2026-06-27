@@ -88,8 +88,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Container(
                   color: Colors.green,
-                  height: 150,
-                  width: 150,
+                  height: 100,
+                  width: 100,
                 child: Center(
                   child: Text('container 2',style: TextStyle(
                     fontSize: 25,
